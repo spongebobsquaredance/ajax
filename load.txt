@@ -1,0 +1,2 @@
+<p><span id="content">Web Server content</span>supplied by AJAX Response</p>
+<img src="nice_snow.png" alt="Small snow texture image">
