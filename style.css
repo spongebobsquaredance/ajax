@@ -48,9 +48,39 @@ table {
 }
 /* End of Reset 
 ====================== */
-
+body {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	background: #140C1A;
+	color: #81BFCC;
+	-webkit-font-smoothing: antialiased;
+}
+.instructions {
+	padding: 2em;
+	font-size: 2em;
+}
 p {
-	background: oldlace;
+	padding: 2em;
+	font-size: 1.5em;
+}
+button {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	padding: .25em;
+	color: #040102;
+	background-color: #F7D945;
+	border: none;
+}
+button {
+	width: 300px;
+}
+#btn {
+	margin-right: 1.5em;
+}
+#rtn {
+	margin-left: 1.5em;
 }
 #content {
 	background: lightblue;
