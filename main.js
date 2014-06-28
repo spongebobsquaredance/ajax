@@ -1,5 +1,13 @@
 $(document).ready(function() {
-	$("#btn").on("click", function(){
-		$("div").load("load.txt");
+	
+	var store= $("#out").html();
+	
+	$("#btn").on("click", function() {
+		$("#out").load("load.txt #content");
 	});
+	
+	$("#rtn").on("click", function() {
+		$("#out").html(store);
+	});
+		
 });
